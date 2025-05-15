@@ -3,6 +3,7 @@
 ##  Domain Proyek: Prediksi Harga Cabai
 
 Latar Belakang
+
 Pada prediksi harga cabai ini, saya menggunakan data harga cabai dengan dataset yang terdiri dari 500 baris dan 2 kolom, yang mencakup dua variabel: satu yang mewakili waktu (seperti tanggal/periode) dan satu lagi yang menunjukkan harga cabai. Fluktuasi harga cabai yang sering terjadi dapat mempengaruhi kestabilan pasar dan daya beli masyarakat, terutama di kalangan konsumen dengan pendapatan rendah. Dengan menggunakan dataset ini, diharapkan dapat dilakukan prediksi yang lebih akurat untuk mengantisipasi perubahan harga, serta membantu dalam perencanaan distribusi dan kebijakan yang lebih efisien di sektor pangan
 
 -sumber data set[Kaggle] (https://www.kaggle.com/datasets/muhvannesalqadri/data-harga-jual-cabai-merah-keriting-di-sultra)
