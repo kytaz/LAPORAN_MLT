@@ -45,6 +45,7 @@ Deskripsi Dataset: https://www.kaggle.com/datasets/muhvannesalqadri/data-harga-j
 Langkah-langkah:
 
 1.Memisahkan Data Menjadi Data Latih dan Data Uji 
+
 2.Membuat Variabel Target (y) dan Variabel Input (X):
 3.Menambahkan Kolom 'date_num' (Pertama):
 4.Mengatur Frekuensi Data Time Series:
