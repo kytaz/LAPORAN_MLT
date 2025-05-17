@@ -9,7 +9,7 @@ Pada prediksi harga cabai ini, saya menggunakan data harga cabai dengan dataset 
 -sumber data set[Kaggle] (https://www.kaggle.com/datasets/muhvannesalqadri/data-harga-jual-cabai-merah-keriting-di-sultra)
 -sumber yang bisa digunakan [Scholar](https://socjs.telkomuniversity.ac.id/ojs/index.php/indojc/article/view/144) 
 
-##Business Understanding
+## Business Understanding
 
 - Permasalahan:
 Bagaimana memprediksi harga cabai di masa depan berdasarkan data historis?
@@ -86,7 +86,7 @@ Parameter terbaik dipilih berdasarkan error terendah.
 Kelebihan: Akurat, fleksibel, dan mencegah overfitting.
 Kekurangan: Komputasi bisa berat, kurang mudah diinterpretasi.5. Kesimpulan dan Evaluation
 
-##Evaluasi Model:
+## Evaluasi Model:
 
 Metrik Evaluasi:
 
