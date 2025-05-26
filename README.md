@@ -95,7 +95,7 @@ y_test = test['value']  # Nilai target untuk data pengujian
 ```
 
 
-### 2. Mengatur 'tanggal' sebagai indeks
+### 2. Mengatur 'date' sebagai indeks
 Kode ini mengambil data historis harga cabai dan mengatur kolom ` date` sebagai indeks dari dataset, menunjukkan fokus pada analisis dan prediksi harga ` value ` berdasarkan tanggal.
 ```
 if 'date' in data.columns:
@@ -291,7 +291,7 @@ Grafik ini menunjukkan perbandingan antara harga cabai yang sebenarnya dengan pr
 | Model            | MAE       | RMSE      | R²       |
 |------------------|-----------|-----------|----------|
 | **ARIMA**        | 10,957.42 | 15,505.54 | -0.6628  |
-| **Random Forest**| 10,051.14 | 15,458.87 | -0.6958  |
+| **Random Forest**| 11,051.14 | 15,458.87 | -0.6958  |
 
 
  ### Analisi Hasil
