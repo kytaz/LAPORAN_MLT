@@ -310,10 +310,10 @@ Dari kedua model yang Anda sebutkan, ARIMA memberikan hasil yang sedikit lebih b
 *Model ARIMA secara inheren dapat mengidentifikasi pola musiman dan tren dalam data time series. Visualisasi data dan analisis residual juga dapat membantu dalam mengidentifikasi pola-pola ini.*
 
 ### Apakah sudah mencapai Goals? 
-- **Goal 1 ** : Membangun model prediksi harga cabai yang akurat.✅
+- **Goal 1** : Membangun model prediksi harga cabai yang akurat.✅
 *Telah mencapai tujuan ini dengan membangun dan mengevaluasi dua model prediksi. Nilai MAE, RMSE, dan R2 menunjukkan tingkat akurasi model. Semakin rendah MAE dan RMSE, dan semakin tinggi R2, semakin akurat model tersebut.* 
 
-- **Goal 2 ** : Mengidentifikasi faktor yang memengaruhi fluktuasi harga cabai untuk pengambilan keputusan yang lebih baik.✅
+- **Goal 2** : Mengidentifikasi faktor yang memengaruhi fluktuasi harga cabai untuk pengambilan keputusan yang lebih baik.✅
 *Model yang dibangun, terutama ARIMA, dapat membantu dalam mengidentifikasi faktor-faktor yang memengaruhi harga cabai yaitu pada data harian harga yang mengalami perubahan.*
 
 ### Apakah solusi yang dirancang berdampak? 
