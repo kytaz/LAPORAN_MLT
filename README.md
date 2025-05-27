@@ -291,12 +291,12 @@ Grafik ini menunjukkan perbandingan antara harga cabai yang sebenarnya dengan pr
 | Model            | MAE       | RMSE      | R²       |
 |------------------|-----------|-----------|----------|
 | **ARIMA**        | 10,957.42 | 15,505.54 | -0.6628  |
-| **Random Forest**| 11,051.14 | 15,458.87 | -0.6958  |
+| **Random Forest**| 11,051.14 | 15,658.87 | -0.6958  |
 
 
  ### Analisi Hasil
 
-Model ARIMA menunjukkan kinerja yang lebih baik dibandingkan Random Forest dengan MAE sebesar 10,957.42, RMSE 15,505.54, dan R² -0.6628. Meskipun hasilnya belum optimal, ARIMA lebih stabil dalam memprediksi harga cabai dan memiliki kesalahan prediksi yang sedikit lebih rendah dibandingkan dengan Random Forest.
+Dari kedua model yang Anda sebutkan, ARIMA memberikan hasil yang sedikit lebih baik dibandingkan Random Forest berdasarkan metrik MAE (Mean Absolute Error) dan RMSE (Root Mean Squared Error). ARIMA memiliki nilai MAE 10,957.42 dan RMSE 15,505.54, sedangkan Random Forest memiliki nilai MAE 11,051.14 dan RMSE 15,658.87, yang lebih tinggi.
 
 
 ## Hubungan dengan Business Understanding:
@@ -314,7 +314,7 @@ Model ARIMA menunjukkan kinerja yang lebih baik dibandingkan Random Forest denga
 *Telah mencapai tujuan ini dengan membangun dan mengevaluasi dua model prediksi. Nilai MAE, RMSE, dan R2 menunjukkan tingkat akurasi model. Semakin rendah MAE dan RMSE, dan semakin tinggi R2, semakin akurat model tersebut.* 
 
 - **Goal 2 ** : Mengidentifikasi faktor yang memengaruhi fluktuasi harga cabai untuk pengambilan keputusan yang lebih baik.✅
-*Model yang dibangun, terutama ARIMA, dapat membantu dalam mengidentifikasi faktor-faktor yang memengaruhi harga cabai.*
+*Model yang dibangun, terutama ARIMA, dapat membantu dalam mengidentifikasi faktor-faktor yang memengaruhi harga cabai yaitu pada data harian harga yang mengalami perubahan.*
 
 ### Apakah solusi yang dirancang berdampak? 
 -  *Membangun model ARIMA (Autoregressive Integrated Moving Average) untuk memprediksi harga cabai berdasarkan data historis berdampak karena ARIMA adalah model yang cocok untuk data time series dan dapat memberikan prediksi yang baik dan Random Forest untuk menangkap pola dan memprediksi harga, dengan tuning hyperparameter untuk meningkatkan akurasii ini juga berdampak karena Random Forest adalah model yang fleksibel dan akurat. Tuning hyperparameter membantu mengoptimalkan performa model.*
