@@ -124,7 +124,7 @@ Dalam proyek ini menggunakan 2 model untuk memeprediksi Harga Cabai Merah Keriti
 
 ## Model 1: ARIMA
 
-Model ARIMA memprediksi nilai di masa depan berdasarkan nilai-nilai historis dan kesalahan sisa dari data deret waktu itu sendiri, menggunakan komponen autoregresif, diferensiasi, dan rata-rata bergerak yang urutannya ditentukan oleh parameter (p, d, q) untuk mencapai stasioneritas dan menangkap dependensi temporal dalam data.
+Model ARIMA adalah  metode statistik yang populer untuk memprediksi nilai di masa depan dalam deret waktu berdasarkan nilai historisnya. Pada model ARIMA dilatih pada data pelatihan harga cabai yang telah distabilkan (integrated) menggunakan pengaturan order (5, 1, 0) untuk menangkap pola temporal dalam data, dan kemudian model yang telah dilatih tersebut digunakan untuk membuat prediksi harga cabai pada periode pengujian.
 
 Cara Kerja:
 
@@ -189,7 +189,7 @@ Kekurangan: Membutuhkan data stasioner, pemilihan parameter bisa rumit.
 
 ## Model 2: Random Forest
 
-Model Random Forest dilatih pada data pelatihan yang diperkaya dengan fitur 'date_num' untuk merepresentasikan waktu, kemudian melalui proses tuning hyperparameter menggunakan GridSearchCV guna mencari kombinasi optimal dari n_estimators, max_depth, dan min_samples_split, dan selanjutnya menggunakan model terbaik hasil tuning tersebut untuk menghasilkan prediksi harga cabai pada data pengujian berdasarkan fitur 'date_num'.
+Model Random Forest adalah algoritma ensemble berbasis pohon keputusan. Model Random Forest dilatih pada data pelatihan yang diperkaya dengan fitur 'date_num' untuk merepresentasikan waktu, kemudian melalui proses tuning hyperparameter menggunakan GridSearchCV guna mencari kombinasi optimal dari n_estimators, max_depth, dan min_samples_split, dan selanjutnya menggunakan model terbaik hasil tuning tersebut untuk menghasilkan prediksi harga cabai pada data pengujian berdasarkan fitur 'date_num'.
 
 
 Cara Kerja:
