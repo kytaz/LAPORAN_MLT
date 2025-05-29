@@ -124,7 +124,7 @@ Dalam proyek ini menggunakan 2 model untuk memeprediksi Harga Cabai Merah Keriti
 
 ## Model 1: ARIMA
 
-Model ARIMA (Autoregressive Integrated Moving Average) digunakan dalam analisis deret waktu (time series) untuk memprediksi nilai di masa depan berdasarkan data historis
+Model ARIMA memprediksi nilai di masa depan berdasarkan nilai-nilai historis dan kesalahan sisa dari data deret waktu itu sendiri, menggunakan komponen autoregresif, diferensiasi, dan rata-rata bergerak yang urutannya ditentukan oleh parameter (p, d, q) untuk mencapai stasioneritas dan menangkap dependensi temporal dalam data.
 
 Cara Kerja:
 
@@ -189,7 +189,9 @@ Kekurangan: Membutuhkan data stasioner, pemilihan parameter bisa rumit.
 
 ## Model 2: Random Forest
 
-Random Forest digunakan untuk memprediksi harga cabai karena kemampuannya menangani data non-linear dan kompleks, serta robust terhadap overfitting 
+Model Random Forest dilatih pada data pelatihan yang diperkaya dengan fitur 'date_num' untuk merepresentasikan waktu, kemudian melalui proses tuning hyperparameter menggunakan GridSearchCV guna mencari kombinasi optimal dari n_estimators, max_depth, dan min_samples_split, dan selanjutnya menggunakan model terbaik hasil tuning tersebut untuk menghasilkan prediksi harga cabai pada data pengujian berdasarkan fitur 'date_num'.
+
+
 Cara Kerja:
 
 1. Persiapan data Random Forest
